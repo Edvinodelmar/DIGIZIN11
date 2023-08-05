@@ -1,0 +1,243 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: blue;
+
+
+}
+
+/*Header*/
+.header{
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%
+
+}
+
+.ODE{
+  font-style: normal;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+
+  display: block;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.ODE:hover:after{
+  content: " DIGIZIN";
+  color: #ff4747;
+}
+
+/*text bild 1*/
+
+.rad1{
+  display: block;
+  background-color: red;
+  height: 700px;
+  margin-top: 85px;
+}
+
+.text1{
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.text1 h1 {
+  margin-left: 20px;
+  color: lightgreen;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bild1 img{
+  background-color: yellow;
+  width: 50%;
+  height: 700px;
+  float: right;
+}
+
+.bild1:hover{
+  color: red;
+}
+
+/*text bild 2*/
+
+.rad2{
+  display: block;
+  background-color: red;
+  height: 700px;
+
+}
+
+.text2{
+  background-color: #e5f5dc;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.text2 h1 {
+  margin-left: 20px;
+  color: lightblue;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bild2 img{
+  background-color: yellow;
+  width: 50%;
+  height: 700px;
+  float: right;
+}
+
+
+/*text bild 3 och 4*/
+
+.rad3{
+  display: block;
+  background-color: red;
+  height: 350px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.text3{
+  float: left;
+  background-color: #e2ff5e;
+  width: 25%;
+  height: 100%;
+}
+
+.text3 h1 {
+  margin-left: 10px;
+  color: #328227;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bild3 img{
+  float: left;
+  background-color: yellow;
+  width: 25%;
+  height: 350px;
+
+}
+
+.text4{
+  float: left;
+  background-color: #dbdbdb;
+  width: 25%;
+  height: 100%;
+}
+
+.text4 h1 {
+  margin-left: 10px;
+  color: #ff4747;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bild4 img{
+  float: left;
+  background-color: yellow;
+  width: 25%;
+  height: 350px;
+
+}
+
+
+/*text bannerscroll*/
+.banner {
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    animation: scroll 15s linear infinite; /* Adjust animation duration as needed */
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/*text bild 5*/
+
+.rad5{
+  display: block;
+  background-color: red;
+  height: 700px;
+  margin-top: 0px;
+}
+
+.text5{
+  background-color: #8845b5;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.text5 h1 {
+  margin-left: 20px;
+  color: #050505;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bild5 img{
+  background-color: yellow;
+  width: 50%;
+  height: 700px;
+  float: right;
+}
+
+/*text bild 6*/
+
+.rad6{
+  display: block;
+  background-color: red;
+  height: 700px;
+
+}
+
+.text6{
+  background-color: #0d0000;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.text6 h1 {
+  margin-left: 20px;
+  color: #bd8a26;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bild6 img{
+  background-color: yellow;
+  width: 50%;
+  height: 700px;
+  float: right;
+}
