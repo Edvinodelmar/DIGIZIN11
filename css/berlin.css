@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  background-color: blue;
+
+
+}
+
+/*Header*/
+.header{
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%
+
+}
+
+.ODE{
+  font-style: normal;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+
+  display: block;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.ODE:hover:after{
+  content: " DIGIZIN";
+  color: #ff4747;
+}
+
+/*bild rad 1*/
+.bildrad1{
+  margin-top: 85px;
+  margin: 0;
+  padding: 0;
+}
+
+.bild1 img{
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+.bild2 img{
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+.bild3 img{
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
